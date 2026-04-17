@@ -327,12 +327,12 @@
             
             <div class="whatsapp-info">
                 <i class="fab fa-whatsapp"></i>
-                <span>Atendimento via WhatsApp: 5511952948627</span>
+                <span>Atendimento via WhatsApp: +551151189320</span>
             </div>
         </div>
         
         <div class="buttons-container">
-            <a href="https://wa.me/5511952948627?text=Olá!%20Gostaria%20de%20falar%20com%20um%20*atendente%20humano*." target="_blank" class="service-button">
+            <a href="https://wa.me/+551151189320?text=Olá!%20Gostaria%20de%20falar%20com%20um%20*atendente%20humano*." target="_blank" class="service-button">
                 <div class="button-icon">
                     <i class="fas fa-user-friends"></i>
                 </div>
@@ -342,7 +342,7 @@
                 </div>
             </a>
             
-            <a href="https://wa.me/5511952948627?text=Olá!%20Gostaria%20de%20ativar%20tag." target="_blank" class="service-button">
+            <a href="https://wa.me/+551151189320?text=Olá!%20Gostaria%20de%20ativar%20tag." target="_blank" class="service-button">
                 <div class="button-icon">
                     <i class="fas fa-user-cog"></i>
                 </div>
@@ -362,7 +362,7 @@
                 </div>
             </a>
             
-            <a href="https://wa.me/5511952948627?text=Olá!%20Estou%20com%20*problemas%20com%20pagamentos*." target="_blank" class="service-button">
+            <a href="https://wa.me/+551151189320?text=Olá!%20Estou%20com%20*problemas%20com%20pagamentos*." target="_blank" class="service-button">
                 <div class="button-icon">
                     <i class="fas fa-satellite-dish"></i>
                 </div>
@@ -372,7 +372,7 @@
                 </div>
             </a>
             
-            <a href="https://wa.me/5511952948627?text=Olá!%20Gostaria%20de%20informações%20sobre%20*outros%20serviços*." target="_blank" class="service-button">
+            <a href="https://wa.me/+551151189320?text=Olá!%20Gostaria%20de%20informações%20sobre%20*outros%20serviços*." target="_blank" class="service-button">
                 <div class="button-icon">
                     <i class="fas fa-concierge-bell"></i>
                 </div>
@@ -387,12 +387,12 @@
             <p><i class="far fa-copyright"></i> 2025 Central de Atendimento. Todos os direitos reservados.</p>
          
             <div class="footer-links">
-                <a href="tel:5514997203900" class="footer-link">
+                <a href="tel:+551151189320" class="footer-link">
                     <i class="fas fa-phone"></i> Ligar agora
                 </a>
            
-                <a href="https://wa.me/5511952948627" target="_blank" class="footer-link">
-                    <i class="fab fa-whatsapp"></i> WhatsApp 5511952948627
+                <a href="https://wa.me/+551151189320" target="_blank" class="footer-link">
+                    <i class="fab fa-whatsapp"></i> WhatsApp +551151189320
                 </a>
             </div>
         </div>
@@ -400,7 +400,7 @@
 
     <script>
         // Número do WhatsApp atualizado
-        const whatsappNumber = "5511952948627";
+        const whatsappNumber = "+551151189320";
         
         // Anima os botões ao carregar a página
         document.addEventListener('DOMContentLoaded', function() {
@@ -452,7 +452,7 @@
         function fixWhatsAppLinks() {
             const allLinks = document.querySelectorAll('a[href*="wa.me"]');
             allLinks.forEach(link => {
-                if (!link.href.includes('5511952948627')) {
+                if (!link.href.includes('+551151189320')) {
                     const text = link.href.split('text=')[1] || '';
                     link.href = `https://wa.me/${whatsappNumber}${text ? '?text=' + text : ''}`;
                 }
@@ -460,7 +460,7 @@
             
             const phoneLinks = document.querySelectorAll('a[href*="tel:"]');
             phoneLinks.forEach(link => {
-                if (!link.href.includes('5511952948627')) {
+                if (!link.href.includes('+551151189320')) {
                     link.href = `tel:${whatsappNumber}`;
                 }
             });
